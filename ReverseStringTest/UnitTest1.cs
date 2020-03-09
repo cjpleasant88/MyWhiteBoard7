@@ -17,5 +17,17 @@ namespace ReverseStringTest
         {
             Assert.AreEqual("lwoB repuS", ReverseString.Program.GetReverse("Super Bowl"));
         }
+
+        [TestMethod]
+        public void GetReverse_null()
+        {
+            Assert.AreEqual("Null or empty Set", ReverseString.Program.GetReverse(null));
+        }
+
+        [TestMethod]
+        public void GetReverse_Empty()
+        {
+            Assert.AreEqual("Null or empty Set", ReverseString.Program.GetReverse(""));
+        }
     }
 }

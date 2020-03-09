@@ -2,7 +2,7 @@
 
 namespace SumOfPrimes
 {
-    class Program
+    public class SumOfPrimes
     {
         static void Main(string[] args)
         {
@@ -11,23 +11,23 @@ namespace SumOfPrimes
             Console.WriteLine("\nThis will return the sum of a user defined prime numbers.");
             Console.Write("\nHow many prime numbers do you want to sum: ");
             int input = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"\n\tThe sum of {input} prime numbers = {SumOfPrimes(input)}");
+            Console.WriteLine($"\n\tThe sum of {input} prime numbers = {SumOfNPrimes(input)}");
         }
 
-        public static long SumOfPrimes(int n)
+        public static long SumOfNPrimes(int n)
         {
             int PrimeSum = 0;
-            int primeCounter = 2;
+            int numberToTest = 2;
             int numberOfPrimes = 0;
 
             while (numberOfPrimes < n)
             {
-                if(isPrime(primeCounter))
+                if(isPrime(numberToTest))
                 {
-                    PrimeSum += primeCounter; //1, 2, 3, 5, 7, 11
+                    PrimeSum += numberToTest; //1, 2, 3, 5, 7, 11
                     numberOfPrimes++;
                 }
-                primeCounter++;
+                numberToTest++;
             }
             return PrimeSum;
         }
@@ -35,6 +35,7 @@ namespace SumOfPrimes
         public static bool isPrime(int input)
         {
             if (input < 2) return false;
+
             for (int i = 2; i < input; i++)
             {
                 if (input % i == 0)

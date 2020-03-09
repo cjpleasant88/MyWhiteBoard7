@@ -15,6 +15,10 @@ namespace ReverseString
 
         public static string GetReverse(string input)
         {
+            if (string.IsNullOrEmpty(input))
+            {
+                return "Null or empty Set";
+            }
             string reverseInput = "";
                 for(int i = (input.Length-1); i >= 0; --i)
             {
