@@ -67,9 +67,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngleOfClockHandsTest", "An
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaPlayerDemo", "MediaPlayerDemo\MediaPlayerDemo.csproj", "{6DDC0530-C477-4DB9-9A51-D0D84C3E0414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{D96F74F7-CDC4-48A8-9DE4-FA0CFBCBCC67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileIO", "FileIO\FileIO.csproj", "{D96F74F7-CDC4-48A8-9DE4-FA0CFBCBCC67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQDemoCode", "LINQDemoCode\LINQDemoCode.csproj", "{B8369A0F-16BE-42CF-8425-77E0BD377FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQDemoCode", "LINQDemoCode\LINQDemoCode.csproj", "{B8369A0F-16BE-42CF-8425-77E0BD377FDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetWordCount", "GetWordCount\GetWordCount.csproj", "{C90B321D-D319-4AEC-A515-493CC83DA3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCapitals", "CountCaptials\CountCapitals.csproj", "{1FF528D3-74D1-412B-B145-B3FAAF74387E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCapitalsTest", "CountCapitalsTest\CountCapitalsTest.csproj", "{C8C4440B-9C7A-4C5D-886E-36A2711777B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +219,18 @@ Global
 		{B8369A0F-16BE-42CF-8425-77E0BD377FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8369A0F-16BE-42CF-8425-77E0BD377FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8369A0F-16BE-42CF-8425-77E0BD377FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90B321D-D319-4AEC-A515-493CC83DA3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90B321D-D319-4AEC-A515-493CC83DA3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90B321D-D319-4AEC-A515-493CC83DA3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90B321D-D319-4AEC-A515-493CC83DA3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF528D3-74D1-412B-B145-B3FAAF74387E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF528D3-74D1-412B-B145-B3FAAF74387E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF528D3-74D1-412B-B145-B3FAAF74387E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF528D3-74D1-412B-B145-B3FAAF74387E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C4440B-9C7A-4C5D-886E-36A2711777B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C4440B-9C7A-4C5D-886E-36A2711777B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C4440B-9C7A-4C5D-886E-36A2711777B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C4440B-9C7A-4C5D-886E-36A2711777B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

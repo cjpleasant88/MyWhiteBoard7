@@ -40,7 +40,7 @@ namespace FileIO
             //string of all lyrics
             text = System.IO.File.ReadAllText(filePath);
      
-            words.Add()
+            //words.Add()
 
 
             //displays how many lines there are
@@ -54,13 +54,13 @@ namespace FileIO
                     blankLineCount++;
                 }
             }
-            var words = text.Split(" ");
-            Console.WriteLine($"# of words = {words.Length}");
+            var wordss = text.Split(" ");
+            Console.WriteLine($"# of words = {wordss.Length}");
 
-            foreach ( var word in words)
-            {
-                if (!wo)
-            }
+            //foreach ( var word in words)
+            //{
+            //    if (!wo)
+            //}
 
             //split text file by space symbol and counts words
             wordCount = text.Split(" ").Length;

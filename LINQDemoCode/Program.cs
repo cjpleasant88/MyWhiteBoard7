@@ -176,7 +176,7 @@ namespace LINQDemoCode
             var innerJoin =
                from animal in animals
                join owner in owners on animal.AnimalID equals owner.OwnerID
-               select new { OwnerName = owner.Name, AnimalName = animal.Name };
+               select new { OwnerName = owner.Name, AnimalName = animal.Name }; 
 
             foreach (var i in innerJoin)
             {
