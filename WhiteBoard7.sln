@@ -73,9 +73,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQDemoCode", "LINQDemoCod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetWordCount", "GetWordCount\GetWordCount.csproj", "{C90B321D-D319-4AEC-A515-493CC83DA3A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCapitals", "CountCaptials\CountCapitals.csproj", "{1FF528D3-74D1-412B-B145-B3FAAF74387E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCapitals", "CountCaptials\CountCapitals.csproj", "{1FF528D3-74D1-412B-B145-B3FAAF74387E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCapitalsTest", "CountCapitalsTest\CountCapitalsTest.csproj", "{C8C4440B-9C7A-4C5D-886E-36A2711777B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCapitalsTest", "CountCapitalsTest\CountCapitalsTest.csproj", "{C8C4440B-9C7A-4C5D-886E-36A2711777B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDoubleArrayLib", "SumOfDoubleArray\SumOfDoubleArrayLib.csproj", "{D64C8CFB-B759-4644-A04B-CECC2B765BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfDoubleArrayLibTest", "SumOfDoubleArrayLibTest\SumOfDoubleArrayLibTest.csproj", "{D96EEA5F-056A-40A3-BF20-FD649ABF1DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctValues", "DistinctValues\DistinctValues.csproj", "{DFEEC056-7DC1-44B5-9A8C-30F845E3F459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctValuesTest", "DistinctValuesTest\DistinctValuesTest.csproj", "{B1B270D8-3195-4340-AC84-2FEDAFF5D891}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +239,22 @@ Global
 		{C8C4440B-9C7A-4C5D-886E-36A2711777B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C4440B-9C7A-4C5D-886E-36A2711777B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C4440B-9C7A-4C5D-886E-36A2711777B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64C8CFB-B759-4644-A04B-CECC2B765BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64C8CFB-B759-4644-A04B-CECC2B765BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64C8CFB-B759-4644-A04B-CECC2B765BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64C8CFB-B759-4644-A04B-CECC2B765BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96EEA5F-056A-40A3-BF20-FD649ABF1DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96EEA5F-056A-40A3-BF20-FD649ABF1DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96EEA5F-056A-40A3-BF20-FD649ABF1DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96EEA5F-056A-40A3-BF20-FD649ABF1DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEEC056-7DC1-44B5-9A8C-30F845E3F459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEEC056-7DC1-44B5-9A8C-30F845E3F459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEEC056-7DC1-44B5-9A8C-30F845E3F459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEEC056-7DC1-44B5-9A8C-30F845E3F459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B270D8-3195-4340-AC84-2FEDAFF5D891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B270D8-3195-4340-AC84-2FEDAFF5D891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B270D8-3195-4340-AC84-2FEDAFF5D891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B270D8-3195-4340-AC84-2FEDAFF5D891}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
