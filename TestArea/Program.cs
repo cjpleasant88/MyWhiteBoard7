@@ -1,22 +1,16 @@
 ﻿using System;
 
+
 namespace TestArea
 {
+
     class Program
     {
-        static void Main()
+        public static void Main(string[] args)
         {
-            int[] myArray = new int[64];
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                myArray[i] = i;
-            }
-            foreach (var element in myArray)
-            {
-                Console.WriteLine(element);
-            }
-
+            Console.WriteLine("What's your name?");
+            var name = Console.ReadLine();
+            Console.WriteLine(string.Format("Hello {0}!!", name));
         }
     }
-
 }

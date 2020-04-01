@@ -85,7 +85,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistinctValues", "DistinctV
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistinctValuesTest", "DistinctValuesTest\DistinctValuesTest.csproj", "{B1B270D8-3195-4340-AC84-2FEDAFF5D891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarTriangle", "StarTriangle\StarTriangle.csproj", "{7D17BF29-C2C7-450F-AB68-9B32591893BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarTriangle", "StarTriangle\StarTriangle.csproj", "{7D17BF29-C2C7-450F-AB68-9B32591893BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance3", "Inhetitance\Inheritance3.csproj", "{273D4B6F-C52A-4CDF-96D9-E3D8FC444EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{C760EBBE-943E-4989-850F-E644B27218B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +265,14 @@ Global
 		{7D17BF29-C2C7-450F-AB68-9B32591893BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D17BF29-C2C7-450F-AB68-9B32591893BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D17BF29-C2C7-450F-AB68-9B32591893BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273D4B6F-C52A-4CDF-96D9-E3D8FC444EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273D4B6F-C52A-4CDF-96D9-E3D8FC444EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273D4B6F-C52A-4CDF-96D9-E3D8FC444EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273D4B6F-C52A-4CDF-96D9-E3D8FC444EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C760EBBE-943E-4989-850F-E644B27218B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C760EBBE-943E-4989-850F-E644B27218B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C760EBBE-943E-4989-850F-E644B27218B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C760EBBE-943E-4989-850F-E644B27218B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

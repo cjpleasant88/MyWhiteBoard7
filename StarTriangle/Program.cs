@@ -39,6 +39,7 @@ namespace StarTriangle
                 Console.WriteLine("There are not lines to print");
                 return;
             }
+
             for (int i=1; i <= lines; i++)
             {
                 for (int k = lines - i; k >= 1; k--)
