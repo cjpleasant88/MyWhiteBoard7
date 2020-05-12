@@ -36,7 +36,7 @@ namespace ExtensionMethods
 				return -1;
 			}
 
-			if (input.Length + 1 > max) // TODO;
+			if (input.Length > max) // TODO;
 			{
 				return -1;
 			}

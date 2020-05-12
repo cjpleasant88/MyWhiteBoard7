@@ -107,7 +107,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue_DataStructure", "Queu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fizz_Buzz", "Fizz_Buzz\Fizz_Buzz.csproj", "{C26812B3-6CFD-4634-B631-5318BC5C3607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{894D5B3D-FCFE-4C18-9555-7FFCBD1EB5C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{894D5B3D-FCFE-4C18-9555-7FFCBD1EB5C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBoardArea", "WhiteBoardArea\WhiteBoardArea.csproj", "{F4DA7369-55C2-44AC-85FF-94AAE8A0D360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -325,6 +327,10 @@ Global
 		{894D5B3D-FCFE-4C18-9555-7FFCBD1EB5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{894D5B3D-FCFE-4C18-9555-7FFCBD1EB5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{894D5B3D-FCFE-4C18-9555-7FFCBD1EB5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DA7369-55C2-44AC-85FF-94AAE8A0D360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DA7369-55C2-44AC-85FF-94AAE8A0D360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DA7369-55C2-44AC-85FF-94AAE8A0D360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DA7369-55C2-44AC-85FF-94AAE8A0D360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
